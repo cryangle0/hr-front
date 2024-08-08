@@ -1,0 +1,27 @@
+/* src/assets/global.css */
+
+/* 设置滚动条轨道的样式 */
+::-webkit-scrollbar {
+  width: 6px; /* 设置滚动条的宽度 */
+}
+
+/* 滚动条的轨道 */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 轨道背景色 */
+}
+
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background: #888; /* 滑块背景色 */
+  border-radius: 6px; /* 滑块圆角 */
+}
+
+/* 滑块在鼠标悬停时的样式 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 滑块背景色在悬停时变暗 */
+}
+
+/* 可选：设置滚动条两端按钮的样式 */
+::-webkit-scrollbar-button {
+  display: none; /* 隐藏滚动条按钮 */
+}
