@@ -1,7 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Index from '../pages/Index.vue';
-import Img from '../pages/imgs/Index.vue';
-import Video from '../pages/videos/Index.vue';
+import Hr from '../pages/hr/index.vue';
+
 
 const routes = [
   {
@@ -10,16 +9,8 @@ const routes = [
   },
   {
     path: '/home',
-    component: Index
+    component: Hr
   },
-  {
-    path: '/img',
-    component: Img
-  },
-  {
-    path: '/video',
-    component: Video
-  }
 ];
 
 const router = createRouter({

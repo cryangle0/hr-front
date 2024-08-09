@@ -2,7 +2,7 @@
 
 /* 设置滚动条轨道的样式 */
 ::-webkit-scrollbar {
-  width: 6px; /* 设置滚动条的宽度 */
+  width: 5px; /* 设置滚动条的宽度 */
 }
 
 /* 滚动条的轨道 */
@@ -13,7 +13,7 @@
 /* 滚动条的滑块 */
 ::-webkit-scrollbar-thumb {
   background: #888; /* 滑块背景色 */
-  border-radius: 6px; /* 滑块圆角 */
+  border-radius: 5px; /* 滑块圆角 */
 }
 
 /* 滑块在鼠标悬停时的样式 */
